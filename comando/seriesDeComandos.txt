@@ -1,0 +1,24 @@
+// Move todos os arquivos na pasta o 2 apenas xlsx
+
+mv * ../
+mv *.xlsx ~/"Área de Trabalho"
+
+// Converte planilhas para csv
+xlsx2csv Dadosrepetidosleads.xlsx --all > Output.csv
+ssconvert --export-type=Gnumeric_stf:stf_csv "Dados repetidos leads" convert.csv
+
+// Cria arquivo de da permissões para um sh 
+
+echo '#!/usr/bin/env bash' > cesar.sh
+
+//Aqui ele da permissão sh
+
+chmod u+x novo.sh
+
+//Contatena textos de planilhas
+
+paste -d"@" arquivo2.txt arquivo.txt
+
+//Remove pastas
+
+rm  -r teste
