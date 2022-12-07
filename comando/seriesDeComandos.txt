@@ -22,3 +22,6 @@ paste -d"@" arquivo2.txt arquivo.txt
 //Remove pastas
 
 rm  -r teste
+
+//Elimina caracteres dentro dos arquivos
+tr -d "()""" <brenner1.txt > ver.txt
