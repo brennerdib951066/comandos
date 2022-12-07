@@ -27,3 +27,6 @@ rm  -r teste
 tr -d "()""" <brenner1.txt > ver.txt
 //Converte planilhas
 for f in *; do ssconvert "$f" "${f%.csv}.xlsx"; done
+
+//Remove caracteres especiais dos 
+rename "y/()//" *
