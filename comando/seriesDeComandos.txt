@@ -30,3 +30,8 @@ for f in *; do ssconvert "$f" "${f%.csv}.xlsx"; done
 
 //Remove caracteres especiais dos 
 rename "y/()//" *
+
+## Agenda em dois minutos
+at now + 2 min
+##Mostra na tela a mensagem "Presta Atenção!"
+DISPLAY=:0.0 zenity --info --text "Presta Atenção!"
