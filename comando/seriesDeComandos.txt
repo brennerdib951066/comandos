@@ -35,3 +35,10 @@ rename "y/()//" *
 at now + 2 min
 ##Mostra na tela a mensagem "Presta Atenção!"
 DISPLAY=:0.0 zenity --info --text "Presta Atenção!"
+
+##Para espelhar o celular com PC
+sudo apt install android-tools-adb
+adb tcpip 5555
+IPC DO CELULAR
+192.168.0.3:5555
+scrcpy
