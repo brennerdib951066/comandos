@@ -14,3 +14,5 @@ git commit -m "Enviando arquivo $1 para o GitHub"
 
 #Envia o commit para o repositório remoto
 git push origin master
+
+Novo commit
