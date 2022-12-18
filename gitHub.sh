@@ -16,3 +16,4 @@ git commit -m "Enviando arquivo $1 para o GitHub"
 git push origin master
 
 Novo commit
+Legalll demais
