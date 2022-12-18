@@ -65,3 +65,7 @@ file2="novo2_col4.csv"
 temp_file=$(mktemp)
 paste -d, $file1 $file2 > $temp_file
 cat $temp_file > concate.csv
+
+
+##Esvaziar a lixeira
+rm -rf /home/*/.local/share/Trash/*
