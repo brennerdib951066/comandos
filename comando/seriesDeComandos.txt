@@ -69,3 +69,6 @@ cat $temp_file > concate.csv
 
 ##Esvaziar a lixeira
 rm -rf /home/*/.local/share/Trash/*
+
+##Criar pastas e subpastas
+mkdir -p pasta_principal/subpasta_1/{pasta_1,pasta_2,pasta_3} && mkdir -p pasta_principal/subpasta_2/{pasta_1,pasta_2,pasta_3}
