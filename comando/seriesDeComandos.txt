@@ -72,3 +72,6 @@ rm -rf /home/*/.local/share/Trash/*
 
 ##Criar pastas e subpastas
 mkdir -p cesar/arquivosxlsx/{semrepeticoes,dadosrepetidos,enviarprocesar} && mkdir -p cesar/leadsmg/{semrepeticoes,dadosrepetidos,enviarprocesar} && mkdir -p cesar/leadsgo/{semrepeticoes,dadosrepetidos,enviarprocesar} && mkdir -p cesar/leadsdf/{semrepeticoes,dadosrepetidos,enviarprocesar}
+
+## Comando para verficar e ordenar os arquivos pelo seu aramazenamento(mg,G)
+du -sxh ./cursoJavascript/gustavoGuanabara/* | sort -rh | head -n 10
