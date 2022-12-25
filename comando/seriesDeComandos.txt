@@ -5,8 +5,7 @@ mv *.xlsx ~/"Área de Trabalho"
 
 // Converte planilhas para csv
 xlsx2csv Dadosrepetidosleads.xlsx --all > Output.csv
-ssconvert --export-type=Gnumeric_stf:stf_csv "Dados repetidos leads" convert.csv
-
+soffice --headless --convert-to csv *.xlsx
 // Cria arquivo de da permissões para um sh 
 
 echo '#!/usr/bin/env bash' > cesar.sh
