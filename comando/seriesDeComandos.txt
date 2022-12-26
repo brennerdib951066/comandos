@@ -74,3 +74,6 @@ mkdir -p cesar/arquivosxlsx/{semrepeticoes,dadosrepetidos,enviarprocesar} && mkd
 
 ## Comando para verficar e ordenar os arquivos pelo seu aramazenamento(mg,G)
 du -sxh ./cursoJavascript/gustavoGuanabara/* | sort -rh | head -n 10
+
+## Sincronizar uma pasta com outra
+rsync -avz ./vindosPorScriptDeVideos/ /home/brenner/Área\ de\ Trabalho/baixadosPeloShell
