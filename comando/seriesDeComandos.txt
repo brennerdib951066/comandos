@@ -77,3 +77,19 @@ du -sxh ./cursoJavascript/gustavoGuanabara/* | sort -rh | head -n 10
 
 ## Sincronizar uma pasta com outra
 rsync -avz ./vindosPorScriptDeVideos/ /home/brenner/Área\ de\ Trabalho/baixadosPeloShell
+
+##Descompac TAR
+tar -xvf backup-31-12-2022.tar.gz
+
+##Ver todos arqmazenamentos
+lsblk
+
+##Ver se nesta pasta esta algo montado
+mountpoint /mnt/backup
+
+##Monta montagem de armazenamento
+mount -v /dev/sdb1 /mnt/backup
+
+##Formata prendriver
+mkfs.fat -F 32 /dev/sdb4
+
