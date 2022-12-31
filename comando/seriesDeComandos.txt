@@ -93,3 +93,6 @@ mount -v /dev/sdb1 /mnt/backup
 ##Formata prendriver
 mkfs.fat -F 32 /dev/sdb4
 
+##Atribui nome ao pendriver
+sudo mlabel -i /dev/sdb ::16G
+
